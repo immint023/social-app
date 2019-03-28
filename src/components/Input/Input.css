@@ -1,0 +1,30 @@
+.Input {
+  position: relative;
+}
+input {
+  margin: 16px;
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #F4EAEA;
+  outline: none;
+  border: none;
+  text-align: center;
+  line-height: 30px;
+  font-size: .8em;
+  color: #5F5A5A;
+}
+::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #5F5A5A;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.Input > p {
+ position: absolute;
+ top: 80%;
+ left: 50%;
+ transform: translateX(-50%);
+ font-size: 13px;
+ color: #ff7675;
+}
